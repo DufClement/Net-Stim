@@ -3,6 +3,8 @@ include('html_header.html');
 ?>
 
 <script type='text/javascript' src='scripts/artiste.js'></script>
+<script type="text/javascript" src="scripts/jquery.tablesorter.js"></script>
+
 	<!-- Main -->
 <div id="main">
 	<h1><center>Référentiel des artistes</center></h1>

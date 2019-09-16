@@ -7,11 +7,11 @@ $(document).ready(function()
 function AfficheArtiste() { // Récupère les données du fichier AJAX puis les renvoie sur la page index
 
 	$.ajax({
-    url: "RefArtisteAffiche.ajax.php",
-    success: function(rep){
-      document.getElementById('tableArtiste').innerHTML = rep;
+	    url: "RefArtisteAffiche.ajax.php",
+	    success: function(rep){
+	      document.getElementById('tableArtiste').innerHTML = rep;
+	      $("#tab_Artiste").tablesorter();
 
-    }
-});
-	
+	    }
+	});	
 }
